@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Sunflower', sans-serif;
+}
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-family: "Avenir Next"; 
+    margin: 50px 0px 10px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+header p {
+    font-family: "Avenir Next"; 
+    font-size: 16px;
+    color: rgb(58, 58, 58);
+}
+
+div div h1 {
+  font-size: 20px; 
+  color: white;
+  padding-top: 20px; 
+}
+
+.days{
+    font-family: "Avenir Next"; 
+    background: lightblue;
+    width: 100%;
+    display: flex;
+}
+.days div {
+    height: 170px;
+    width: 100px;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.today p {
+    padding-top: 30px; 
+}
+
+.days div:hover {
+    background: lightsteelblue;
+}
+.today {
+    background: lightseagreen;
+}
+
+body p {
+    font-family: "Avenir Next"; 
+}
+
+div .control {
+    width: 100%; 
+}
+
+.control {
+    margin: 0 auto; 
+    height: 180px; 
+    text-align: center; 
+}
+
+#volume, #panner{
+    width: 350px;
+	height: 50px;
+	position: relative;
+	margin: 0 auto;
+	top: 80px;
+}
